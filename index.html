@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Prompt por Tópico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Gerador de Prompt</h1>
+    <p class="subtitulo">Escolha aleatoriamente um dos 100 tópicos e copie o prompt pronto.</p>
+
+    <section class="painel">
+      <div class="info">
+        <span>Tópico sorteado</span>
+        <strong id="numero">—</strong>
+      </div>
+
+      <div id="topico" class="topico">Clique em “Sortear tópico” para começar.</div>
+
+      <label for="prompt">Prompt gerado</label>
+      <textarea id="prompt" readonly></textarea>
+
+      <div class="botoes">
+        <button id="sortear">🎲 Sortear tópico</button>
+        <button id="copiar">📋 Copiar frase</button>
+      </div>
+
+      <p id="status"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
