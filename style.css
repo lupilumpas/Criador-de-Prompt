@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #171717, #292929);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.container {
+  width: min(900px, 100%);
+}
+
+h1 {
+  margin: 0 0 8px;
+  text-align: center;
+  font-size: 34px;
+}
+
+.subtitulo {
+  margin: 0 0 25px;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+.painel {
+  background: #202020;
+  border: 1px solid #3a3a3a;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, .35);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  color: #aaa;
+}
+
+.info strong {
+  color: #fff;
+  font-size: 20px;
+}
+
+.topico {
+  min-height: 90px;
+  padding: 18px;
+  background: #151515;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #aaa;
+}
+
+textarea {
+  width: 100%;
+  min-height: 150px;
+  resize: vertical;
+  border: 1px solid #414141;
+  border-radius: 12px;
+  background: #111;
+  color: #fff;
+  padding: 15px;
+  font: inherit;
+  line-height: 1.5;
+  outline: none;
+}
+
+textarea:focus {
+  border-color: #777;
+}
+
+.botoes {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+button {
+  flex: 1;
+  border: 0;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background: #fff;
+  color: #111;
+  transition: transform .15s, opacity .15s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+#copiar {
+  background: #3b3b3b;
+  color: #fff;
+}
+
+#status {
+  min-height: 20px;
+  margin: 14px 0 0;
+  text-align: center;
+  color: #9ee6a8;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 27px;
+  }
+
+  .botoes {
+    flex-direction: column;
+  }
+
+  .painel {
+    padding: 18px;
+  }
+}
