@@ -343,9 +343,46 @@ const topicos = [
 
 // Natal
 
-const inicio = "Crie uma imagem usando o meu produto integrado ao tema escolhido abaixo:\nTema:";
+const inicio = "Create a COMPLETE, original, and visually integrated image, using my product as the main element of the scene.\nTheme:";
 
-const importante = "IMPORTANTE:\n- NÃO altere o produto em sua FORMA, COR, MATERIAL ou características originais.\n- NÃO redesenhe, estilize ou transforme o produto.\n- O produto deve continuar sendo claramente o mesmo produto fornecido como referência.\n- É permitido alterar o ÂNGULO, a posição, a perspectiva e a iluminação do produto.\n- Todo o restante da cena pode ser criado livremente para representar o tema.\n- Use elementos do ambiente que combinem com o tema e tornem a cena interessante e única.\nConfio em você ;)";
+const importante = `
+A reference image serves ONLY to identify and faithfully reproduce the PRODUCT. Do NOT copy, crop, paste, or reproduce the original photograph, background, framing, or composition of the reference image.
+
+The product must be recreated within a NEW SCENE, becoming a natural part of the environment and composition.
+
+PRODUCT
+
+Preserve the product's identity and actual characteristics.
+Maintain its SHAPE, COLOR, MATERIAL, finish, structure, and key details.
+Do NOT redesign, stylize, modernize, simplify, or transform the product.
+The product must remain clearly recognizable as the same item shown in the reference.
+You are free to change the product's ANGLE, position, perspective, scale, framing, and lighting if it helps create a better composition.
+The product does NOT need to maintain the same position or photographic appearance as the reference image.
+
+SCENE
+
+Create the rest of the image from scratch, based on the chosen theme.
+
+The product must be TRULY INTEGRATED into the environment; it should not look like a cutout or an image simply placed over a background.
+
+Build a complete scene around the product, including:
+
+environment;
+architecture or space;
+complementary objects;
+decor;
+lighting;
+consistent shadows and reflections;
+depth;
+perspective;
+photographic composition;
+elements that help visually convey the theme.
+
+Ensure that all elements appear to belong to the same photograph, with consistent lighting, scale, perspective, and shadows.
+
+Use your creativity to craft an interesting, natural, and unique composition for the theme. Avoid automatically repeating the same scene structure across different images. The result should look like a completely new, finished photograph—created specifically to showcase the product within the chosen theme—rather than just a product shot with a new background.
+
+I'm counting on you! ;)`;
 
 const numeroEl = document.getElementById("numero");
 const topicoEl = document.getElementById("topico");
